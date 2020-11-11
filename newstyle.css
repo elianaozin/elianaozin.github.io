@@ -63,13 +63,13 @@ body{
 	background-color: #3f0000;
 }
 .grid2{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	padding: 0rem 0rem 0rem 13rem;
 	text-align: center;
-	padding: 1rem 0rem 0rem 5rem;
+	
 }
 .grid2 .minor-download{
-	margin-top: 80px;
+	height: 40px;
+	margin-top: 10px;
 	font-size: 16px;
 	padding: 10px 24px;
 	border-radius: 12px; 
@@ -88,8 +88,3 @@ body{
 	text-align: center;
 	color: black;
 }
-
-
-
-
-
