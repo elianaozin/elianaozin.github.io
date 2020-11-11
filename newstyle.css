@@ -30,7 +30,9 @@ body{
 	margin-top: -275px; /*b: -250 too right*/
 	margin-left: -280px; 
 }
-
+.info .introduction{
+	front-size: 20px;
+}
 .info .main-download{
 	position: absolute;
 	margin-top:10px;
