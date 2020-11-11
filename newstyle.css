@@ -20,6 +20,9 @@ body{
 	margin-left: -425px;
 	text-align: center;
 }
+.info .introduction{
+	font-size: 12px;
+}
 
 .info .logo{
 	height: 35vh;
