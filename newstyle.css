@@ -19,20 +19,22 @@ body{
 	left: 50%;
 	margin-left: -425px;
 	text-align: center;
+	padding-right: 20px;
 }
+
 .info .logo{
 	height: 35vh;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	margin-top: -250px; 
-	margin-left: -250px; 
+	margin-left: -280px; 
 }
 
 .info .main-download{
 	position: absolute;
 	margin-top:10px;
-	margin-left: -100px;
+	margin-left: -110px;
 	font-size: 16px;
 	padding: 14px 40px;
 	border-radius: 12px;
@@ -53,7 +55,7 @@ body{
 .key-facts .character{
 	width: 700px;
 	height: 100px;
-	padding: 3rem 1rem 0rem 17rem;
+	padding: 3rem 0rem 0rem 17.5rem;
 }
 
 .grid1{
@@ -65,7 +67,7 @@ body{
 	background-color: #3f0000;
 }
 .grid2{
-	padding: 0rem 0rem 0rem 12rem;
+	padding: 0rem 0rem 0rem 12.5rem;
 	text-align: center;
 	
 }
@@ -85,7 +87,6 @@ body{
 }
 .grid2 .description{
 	width: 500px;
-	
 }
 .center{
 	text-align: center;
