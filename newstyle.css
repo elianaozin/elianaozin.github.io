@@ -53,7 +53,7 @@ body{
 .key-facts .character{
 	width: 700px;
 	height: 100px;
-	padding: 3rem 1rem 0rem 18rem;
+	padding: 3rem 1rem 0rem 17rem;
 }
 
 .grid1{
@@ -65,7 +65,7 @@ body{
 	background-color: #3f0000;
 }
 .grid2{
-	padding: 0rem 0rem 0rem 12rem;
+	padding: 0rem 0rem 0rem 11rem;
 	text-align: center;
 	
 }
