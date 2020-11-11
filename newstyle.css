@@ -31,12 +31,15 @@ body{
 }
 
 .info .main-download{
+	position: absolute;
 	margin-top:10px;
+	margin-left: -100px;
 	font-size: 16px;
 	padding: 14px 40px;
 	border-radius: 12px;
 	background-color: #e7e7e7; 
 	color: black;
+	text-decoration: none;
 }
 .info .main-download:hover {
 	background-color: #555555; 
@@ -75,6 +78,7 @@ body{
 	border-radius: 12px; 
 	background-color: #e7e7e7; 
 	color: black;
+	text-decoration: none;
 }
 .grid2 .minor-download:hover {
 	background-color: #555555; 
