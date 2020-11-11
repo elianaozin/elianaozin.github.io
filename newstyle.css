@@ -23,11 +23,11 @@ body{
 }
 
 .info .logo{
-	height: 35vh;
+	height: 50vh;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-top: -275px; /*b: -250 too right*/
+	margin-top: -350px; 
 	margin-left: -280px; 
 }
 .info .introduction{
