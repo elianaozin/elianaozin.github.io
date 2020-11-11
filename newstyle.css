@@ -17,7 +17,7 @@ body{
 	top: 10%;
 	margin-top: 300px;
 	left: 50%;
-	margin-left: -450px;
+	margin-left: -550px;
 	text-align: center;
 	padding-right: 20px;
 }
@@ -31,7 +31,7 @@ body{
 	margin-left: -280px; 
 }
 .info .introduction{
-	front-size: 20px;
+	front-size: 30px;
 }
 .info .main-download{
 	position: absolute;
