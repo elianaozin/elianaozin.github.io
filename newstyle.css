@@ -4,6 +4,7 @@ body{
 	color: rgb(255, 255, 255);
 	font-family: 'Chakra Petch', sans-serif;	
 }
+
 .main{
 	height: 100vh;
 	width: 100%;
@@ -12,31 +13,28 @@ body{
 	background-repeat: no-repeat;
 	background-position: center;
 }
-.info{
+
+.opening{
 	position: absolute;
-	top: 10%;
-	margin-top: 300px;
+	top: 5%;
 	left: 50%;
-	margin-left: -450px;
+	margin-top: 105px;
+	margin-left:-145px;
+	width: 300px;
+	height: 350px;
 	text-align: center;
-	padding-right: 20px;
 }
 
-.info .logo{
-	height: 50vh;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -350px; 
-	margin-left: -400px; 
+.opening .logo {
+	margin-left: -115px;
 }
-.info .introduction{
-	front-size: 30px;
+
+.opening .text{
+	margin-top: 0.5rem;
+	margin-bottom: 1.5rem;
 }
-.info .main-download{
-	position: absolute;
-	margin-top:10px;
-	margin-left: -80px;
+
+.opening .main-download{
 	font-size: 16px;
 	padding: 14px 40px;
 	border-radius: 12px;
@@ -44,53 +42,47 @@ body{
 	color: black;
 	text-decoration: none;
 }
-.info .main-download:hover {
+.opening .main-download:hover {
 	background-color: #555555; 
 	color: white;
 }
-.within{
-	max-width: 960px;
-	margin: auto;
-	padding: 1rem 1rem 5rem 5rem;
-}
 
 .key-facts .character{
-	width: 700px;
-	height: 100px;
-	padding: 3rem 0rem 0rem 22rem;
+	margin-top: 1rem;
+}
+.container{
+	max-width: 960px;
+	margin: auto;
+	overflow: hidden;
+	padding: 1rem 1rem 4rem 4rem;
 }
 
-.grid1{
+.block {
 	display: grid;
+	grid-gap: 10px;
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
 .concept{
 	background-color: #3f0000;
-}
-.grid2{
-	padding: 0rem 0rem 0rem 12.5rem; 
 	text-align: center;
-	
+	margin-left: -50px;	
 }
-.grid2 .minor-download{
-	height: 40px;
-	margin-top: 10px;
+
+.concept .minor-download{
 	font-size: 16px;
-	padding: 10px 24px;
-	border-radius: 12px; 
+	padding: 14px 40px;
+	border-radius: 12px;
 	background-color: #e7e7e7; 
 	color: black;
 	text-decoration: none;
 }
-.grid2 .minor-download:hover {
+.concept .minor-download:hover {
 	background-color: #555555; 
-	color: white;  
+	color: white;
 }
-.grid2 .description{
-	width: 500px;
-}
-.center{
+
+.copyright{
 	text-align: center;
 	color: black;
 }
