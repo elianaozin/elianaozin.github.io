@@ -84,7 +84,7 @@ body{
 
 .copyright{
 	text-align: center;
-	color: black;
+	color: white;
 }
 
 .join-us{
@@ -98,6 +98,7 @@ nav{
 	background-color:#3f0000;
 	
 }
+
 ul{
 	
 }
@@ -110,7 +111,7 @@ ul li{
 ul li a{
 	display: block;
 	text-decoration: none;
-	font-size:14px;
+	font-size:20px;
 	font-family:'Chakra Petch', sans-serif;
 	color: white;
 	padding:0 20px;
