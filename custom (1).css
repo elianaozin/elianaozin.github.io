@@ -1,0 +1,63 @@
+/*Custom Style Sheet*/
+.body{
+
+}
+
+h1 {
+    font-size: 40px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+h2 {
+    font-size: 25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+.mynav{
+   background:#700404!important;
+}
+
+.mynav a {
+    margin-right: 10px;
+    color:#FFFFFF !important;
+    border-bottom: 2px solid transparent;
+
+    background: #700404;
+      color: #fff !important;
+      
+
+      text-align: centered;
+
+    }
+
+    @media only screen and (max-width: 1140px) {
+    .navbar-brand {
+     margin-left:10px;
+}
+}
+
+@media only screen and (max-width: 980px) {
+   .mynav a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+}
+
+.navbar-brand:hover {
+    border-bottom: 2px solid transparent !important;
+}
+
+/* Footer */
+
+footer {
+    background:#791515;
+    padding:10px;
+}
+
+.copy {
+    padding-top: 10px;
+}
