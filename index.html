@@ -1,59 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset ="UTF-8">
-	<meta name ="viewport" content="width=device-width, initial-scale=1.0">
-	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap" rel="stylesheet">
-	<link rel="stylesheet"  href="newstyle.css">
 	<title>Dead Sprint</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link href="style.css" rel="stylesheet">
 </head>
 <body>
 
-<nav>
-<ul>
-<li><a href="Team.html">The Team</a></li>
-<li><a href="Developmentblog.html">Development Blog</a></li>
-<li><a href="About.html">About</a></li>
-<li><a href="index.html">Home</a></li>
-
-</ul>
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="redtitlesmall.png"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link"	href="#top">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link"	href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link"	href="#Error404">Meet Error404</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link"	href="#Development">Development Blog</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 </nav>
-<header class="main">
-</script>
-<center><img src="Deadsprintlogo1_whitefull.png" class="logo" alt="centered image" height="210"> </center>
-						<h1 id="trailer">
-						
-				<center>Trailer</center>
-			</h1>
-			<div class= "line1">
-				<hr >
-			</div>
-<div class = "video">
-<center>
-				<video width="860" height="615" poster ="coverphoto.jpg" controls>
-					<source src="trailervid.mp4" type="video/mp4">
-					</video>	
-		</center>
-		
-		
-	<section class="concept">
-		<div class="container">
-			<div>
-										<center><h1>Deadsprint</h1>
-										<h2>Will you join us?</h2>
-										<p>multiuser, multiplayer, 
-				downloadable, side scroll, PC game.</p> </center>
-								
-				</div>	
-			<div class="center">
-				<a onclick="window.location.href='https://github.com/Emanity/DeadSprint';" class="minor-download" download>Download Now</a>
+
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="background.png">
+			<div class="carousel-caption">
+				<h1 class="display-2">Dead Sprint</h1>
+				<h3>THE MAPLE SYRUP IS GONE. THE APOCALYPSE HAS BEGUN. 
+				ONE SHIP. MULTIPLE CONTESTANTS. WILL YOU BE THE ONE?</h3>
+				<button type="button" class="btn btn-outline-light btn-lg">DOWNLOAD</button>
 			</div>
 		</div>
-	</section>	
-<footer class="copyright">
-		<p>Error 404 &copy; 2020</p>
-		<p>EMAN ABBASI, JENNIFER APPIAH, NASRI DINI, USAMAH ISSA, SANEELA KHATOON, JIMS NACAYA, ELIANA OZIN, MYRA SYED, MAISHA ZAMAN </p>
-	</footer>
+		<div class="carousel-item">
+			<img src="background.png">
+		</div>
+		<div class="carousel-item">
+			<img src="background.png"">
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+<div class="row jumbotron">
+	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+		<p class="lead">DeadSprint is a multiuser, multiplayer, 
+		downloadable, side scroll, PC game made for eveyone to enjoy.</p>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+		<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">
+		Download</button></a>
+	</div>
+</div>
+</div>
+
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<center><img src="Player1Spritesheet.png" class="character" alt="centered image" 
+		height="100" width="75%"> </center>
+		<h1 id="about" class="display-4">Will you join us?</h1>
+	</div>	
+</div>
+</div>
+
+<div class="container-fluid welcome padding">
+<div class="row text-center padding">
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<h3>Development</h3>
+		<p>DeadSprint was developed using Unity 
+		& is designed using pixel art.</p>		
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<h3>Game Function</h3>
+		<p>DeadSprint is a multiuser, multiplayer, 
+		downloadable, side scroll, PC game.</p>		
+	</div>
+	<div class="col-sm-12 col-md-4">
+		<h3>Target Audience</h3>
+		<p>DeadSprint is aimed for all genders 
+		and all ages 12+.</p>		
+	</div>
+</div>
+<hr class="line">
+</div>
+
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-md-12 col-lg-6">
+		<h2>Game Concept</h2>
+		<p>It is 2021 and all is well in the world. Until someone decided
+		to steal Canada’s supply of Maple Syrup! Now the world is on the 
+		cusp of extinction – Canada having waged war on the world for 
+		taking their syrup. Elon Musk has escaped to his Super Secret 
+		Colony on Mars but in his haste has left behind ONE spaceship.
+		A group of survivor's race against each other to get to the last 
+		available spaceship in order to leave the hell that Earth has 
+		become and find a place to live out in the stars.
+		Only one player can reach the spaceship.
+		Will it be you?
+		Many things stand in your way, a fierce landscape blocks your 
+		path with obstacles to be avoided, food and supplies to gather 
+		for a boost in stamina to reach the end and weapons to sabotage 
+		your opponents.
+		Not to mention the world is being teared apart, creating random 
+		geographical events to block your path and destroy your speed! 
+		Survive every level and win your ticket off this earth!</p>
+		<a href="#" class="btn btn-primary">Download</a>
+	</div>
+	<div class="col-lg-6">
+			<video class="img-fluid" poster ="coverphoto.jpg" controls>
+					<source src="trailervid.mp4" type="video/mp4">
+			</video>	
+	</div>
+</div>
+</div>
+
+<div class="container-fluid padding">
+<hr class="line">
+<div class="row text-center">
+	<div class="col-12">
+		<h1 id="Error404" class="display-4">Meet Error404</h1>
+	</div>
+	<hr class="line">
+</div>
+</div>
+
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-md-3">
+		<div class="card">
+			<img class="card-img-top" src="team1.png">
+			<div class="card-body">
+				<h4 class="card-title">Eman Abbasi</h4>
+				<p class="card-text">I worked on the graphics for the 
+				game, the main menu and related networking and 
+				implementing the music sourced by Maisha</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="card">
+			<img class="card-img-top" src="team1.png">
+			<div class="card-body">
+				<h4 class="card-title">Jennifer Appiah</h4>
+				<p class="card-text">I worked as the team leader and manager. 
+				It was my responsibility to make sure everyone's tasks were 
+				completed. I also worked on the mini map and high score 
+				sections</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="card">
+			<img class="card-img-top" src="team1.png">
+			<div class="card-body">
+				<h4 class="card-title">Nasri Dini</h4>
+				<p class="card-text">I worked on player 
+				movement and weapon scripting</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="card">
+			<img class="card-img-top" src="team1.png">
+			<div class="card-body">
+				<h4 class="card-title">Ayoub Djeffal</h4>
+				<p class="card-text">..................
+				.....................................
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="card">
+			<img class="card-img-top" src="team1.png">
+			<div class="card-body">
+				<h4 class="card-title">Usamah Issa</h4>
+				<p class="card-text">I worked on designing and creating 
+				the level of the game as well as being responsible for 
+				a pause menu</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="card">
+			<img class="card-img-top" src="team1.png">
+			<div class="card-body">
+				<h4 class="card-title">Saneela Khatoon</h4>
+				<p class="card-text">I worked with Jim’s on creating the
+				extinction event for the game. This is a random event 
+				that kills the player and restarts the game</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="card">
+			<img class="card-img-top" src="team1.png">
+			<div class="card-body">
+				<h4 class="card-title">Jims Nacaya</h4>
+				<p class="card-text">I worked on the security team and 
+				worked on connecting all aspects of the games together. 
+				I worked on the implementation of each individual’s code 
+				and overall connectedness</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="card">
+			<img class="card-img-top" src="team1.png">
+			<div class="card-body">
+				<h4 class="card-title">Eliana Ozin</h4>
+				<p class="card-text">I worked on the website development 
+				and coding in the game. I worked on the design, concept,
+				and aesthetic. I also worked on the graphics and the map
+				screen of the main game</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="card">
+			<img class="card-img-top" src="team1.png">
+			<div class="card-body">
+				<h4 class="card-title">Myra Syed</h4>
+				<p class="card-text">I worked on implementing security 
+				factors within the game and website. As well as creating
+				the trailer for the game and different pages on the 
+				website</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="card">
+			<img class="card-img-top" src="team1.png">
+			<div class="card-body">
+				<h4 class="card-title">Maisha Zaman</h4>
+				<p class="card-text">I worked on the sound design as 
+				well as, doing the animation for the game</p>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="container-fluid padding">
+<div class="row text-center">
+<hr class="line">
+	<div class="col-12">
+		<h1 id="Development" class="display-4">Development Blog</h1>
+		<h3>Thoughout designing and creating DeadSprint, we have recorded
+				our work and stages to create a Developemnt Blog</h3>
+	</div>
+	<hr class="line">
+</div>
+</div>
+
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+		<li data-target="#slides" data-slide-to="3"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="background.png">
+			<div class="carousel-caption">
+				<h3 class="display-2">12/10/2020</h3>
+				<p>We began our first meeting by introducing ourselves 
+				and discussing our strengths and weaknesses. We found 
+				that as a team we all had the skills of at least one of 
+				the requirements each to complete this project. Some of 
+				us had experience in website design, some were advanced 
+				in Unity and games design and some of us were confident 
+				in documentation. We then selected our team manager, 
+				Jenny, who would be in charge of makings sure we all were
+				up to date throughout the year. We then discussed game 
+				ideas and concepts and settled on our Maple Syrup pitch.
+				After we planned out our video pitch, we finished by splitting 
+				the group into four teams: Graphics and Game Design, 
+				Implementation Coding, Website Development and Documentation.</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="background.png">
+			<div class="carousel-caption">
+				<h3 class="display-2">05/11/2020</h3>
+				<p>Now that the first submission has passed we discussed 
+				how to continue building our game, Dead Sprint. We went 
+				over our successes and issues from the first month and 
+				reconfigured teams when needed. By now we have designed 
+				and created our characters and first level design. The 
+				documentation team finished off any final requirements 
+				and began merging into the three other groups. We also 
+				received a new group member who joined the Website 
+				Development. Now that we have all taken time to invest 
+				and learn Unity for games design, our next goals are to 
+				make a sufficient and reliable game for the next 
+				submission date.
+				</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="background.png"">
+			<div class="carousel-caption">
+				<h3 class="display-2">19/11/2020</h3>
+				<p>Our second submission has passed so we now needed to 
+				reconfigure the team. We spent the previous meeting 
+				outlying every aspect of the game that needed to be 
+				completed by December and divided it accordingly. Each 
+				member took the responsibility of two aspects, one they 
+				felt confident on and one they hadn’t previously worked 
+				with so they could learn a new skill. As documentation 
+				was not as large a part as before, we separated into 
+				four groups again, this time with Unit Testing and 
+				Security as the fourth. All members of the team have 
+				now worked with Unity and GitHub. We outlined a detailed 
+				plan to make sure we would be ready for the next 
+				submission.</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="background.png"">
+			<div class="carousel-caption">
+				<h3 class="display-2">05/12/2020</h3>
+				<p>We started by going through all aspects of the game 
+				assigned to each members, assigning help to whoever 
+				needed it. Most of the games implementations are complete, 
+				our main struggle has been finding a way to connect all 
+				elements of the game together but luckily we set up a coding
+				forum on our Discord account so everyone could post their code 
+				there. With the submission just under two weeks away we are happy 
+				with the work that has been done. Except from the final unit testing, 
+				a few aspect on the website, some Unity scripts and a few 
+				implementations we are good to go.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer>
+<div class="container-fluid welcome padding">
+	<div class="text-center">
+		<div class="col-12">
+			<h5>Error 404 &copy; 2020</h5>
+			<p>EMAN ABBASI, JENNIFER APPIAH, NASRI DINI, AYOUB DJEFFAL,
+			USAMAH ISSA, SANEELA KHATOON, JIMS NACAYA, ELIANA OZIN, 
+			MYRA SYED, MAISHA ZAMAN </p>
+		</div>
+	</div>
+</div>
+</footer>
+
 </body>
-<html>
+</html>
